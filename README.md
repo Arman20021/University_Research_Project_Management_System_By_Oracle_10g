@@ -1,6 +1,6 @@
-# 🏢 Enterprise University Research Project Management System (Research Hub)
+# 🏢 University Research Project Management System (Research Hub)
 
-A robust, production-ready, role-based web application engineered to streamline academic research administration, automate project development lifecycles, audit formal publication pipelines, and centralize institutional data infrastructure. Built with a modular, decoupled three-layer PHP architecture and high-performance utility layouts, this system mitigates administrative overhead while providing absolute data traceability across university departments.
+Developed a role-based web application for managing academic research projects, publications, and institutional data. The system helps automate research workflows, track project progress, manage publications, and reduce administrative work. Built using a modular three-layer PHP architecture to ensure maintainability, scalability, and efficient data management.
 
 ---
 
@@ -17,7 +17,7 @@ The application is structured around an industry-standard **Model-View-Controlle
 ## 🚀 Deep Feature Specifications
 
 ### 👤 1. Advanced Multi-Tenant Authentication & Session Security
-* **Granular Role-Based Access Control (RBAC):** Built with decoupled structural paths that safely isolate the operational scopes of **System Administrators** from **Student Researchers/Users**.
+* **Role-Based Access Control (RBAC):** Built with decoupled structural paths that safely isolate the operational scopes of **System Administrators** from **Student Researchers/Users**.
 * **Strict Route Guard Middleware:** Implements a proactive session gate tracking engine (`require_role()`). If an unauthorized entity attempts to manually access administrative endpoints via URL manipulation, the request is immediately terminated, sessions are audited, and the user is redirected to a secure login terminal.
 * **Secure State Maintenance:** Utilizes native PHP session scopes layered with timeout tokens and state synchronization filters to mitigate hijacking risks and guarantee persistent identity monitoring across separate sub-modules.
 
