@@ -1,0 +1,5 @@
+-- Run this file as SYS/SYSTEM or another DBA user.
+-- Adjust DEFAULT TABLESPACE and QUOTA values for your Oracle 10g installation if needed.
+CREATE USER RESEARCH_HUB IDENTIFIED BY research123;
+GRANT CONNECT, RESOURCE TO RESEARCH_HUB;
+ALTER USER RESEARCH_HUB QUOTA UNLIMITED ON USERS;
