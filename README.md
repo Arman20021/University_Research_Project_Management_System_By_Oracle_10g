@@ -1,5 +1,7 @@
 # 🏢 University Research Project Management System (Research Hub)
 
+Video Link:https://drive.google.com/file/d/1rJT3z88uItLNIKcxIHUKDJqeSC4lA1X2/view?usp=sharing
+
 Developed a role-based web application for managing academic research projects, publications, and institutional data. The system helps automate research workflows, track project progress, manage publications, and reduce administrative work. Built using a modular three-layer PHP architecture to ensure maintainability, scalability, and efficient data management.
 
 ---
